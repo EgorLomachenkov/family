@@ -1,6 +1,6 @@
 services:
   keycloak:
-    image: bitnami/keycloak:latest
+    image: quay.io/keycloak/keycloak:latest
     ports:
       - 8090:8180
     environment:
