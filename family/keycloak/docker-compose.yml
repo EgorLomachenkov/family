@@ -16,3 +16,6 @@ services:
     networks:
       - network
     command: ["start-dev"]
+networks:
+  network:
+    external: true
