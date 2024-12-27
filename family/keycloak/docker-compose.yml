@@ -2,7 +2,7 @@ services:
   keycloak:
     image: bitnami/keycloak:latest
     ports:
-      - 8180:8180
+      - 8090:8180
     environment:
       DB_VENDOR: POSTGRES
       DB_ADDR: postgres
