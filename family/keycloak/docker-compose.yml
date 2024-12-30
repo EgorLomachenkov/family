@@ -30,8 +30,3 @@ networks:
   network:
     external: true
 
-
-
-
-    external: true
-
