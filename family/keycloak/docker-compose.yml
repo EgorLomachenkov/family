@@ -3,7 +3,7 @@ services:
     image: quay.io/keycloak/keycloak:latest
     command: ["start","--transaction-xa-enabled=false"]
     ports:
-      - 8091:8080
+      - 8092:8080
       - 9443:8443
     environment:
       DB_VENDOR: POSTGRES
