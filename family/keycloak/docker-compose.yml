@@ -17,7 +17,7 @@ services:
       KEYCLOAK_HTTP_PORT: 8080
       KEYCLOAK_HTTPS_ENABLED: "false"
       KEYCLOAK_PROXY_MODE: edge
-      KC_HOSTNAME: https://194.158.216.38/
+      KC_HOSTNAME: https://194.158.216.38:9443/
       KC_HTTPS_CERTIFICATE_FILE: /opt/keycloak/conf/server.crt
       KC_HTTPS_CERTIFICATE_KEY_FILE: /opt/keycloak/conf/server.key
     volumes:
